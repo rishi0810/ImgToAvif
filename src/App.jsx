@@ -79,7 +79,7 @@ const App = () => {
             />
             <button
               onClick={handleDownload}
-              className="mt-2 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500 text-sm"
+              className="mt-2 inline-block bg-white hover:bg-neutral-200 text-black px-4 py-2 rounded text-sm"
             >
               Download AVIF Image
             </button>
