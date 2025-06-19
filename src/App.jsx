@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useAvifConverter } from "upavif";
+import { useAvifConverter } from "upavif"; 
 import { Loader2 } from "lucide-react";
 
 const App = () => {
@@ -53,7 +53,9 @@ const App = () => {
 
         {avifUrl && (
           <div className="mt-6 text-center">
-            <h3 className="text-lg font-semibold mb-2">Converted Image:</h3>
+            <h3 className="text-lg font-semibold mb-2">
+              Converted Image:
+            </h3>
             <img
               src={avifUrl}
               alt="Converted to AVIF"
@@ -61,10 +63,11 @@ const App = () => {
             />
             <a
               href={avifUrl}
-              download="converted.avif"
-              className="mt-2 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500 text-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 block text-white underline hover:text-neutral-300 text-sm"
             >
-              Download AVIF Image
+              Open AVIF image
             </a>
           </div>
         )}
