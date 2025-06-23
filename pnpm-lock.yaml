@@ -27,8 +27,8 @@ importers:
         specifier: ^4.1.10
         version: 4.1.10
       upavif:
-        specifier: ^1.0.4
-        version: 1.0.4(react@19.1.0)
+        specifier: ^1.1.2
+        version: 1.1.2(react@19.1.0)
     devDependencies:
       '@eslint/js':
         specifier: ^9.25.0
@@ -1037,8 +1037,8 @@ packages:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
 
-  upavif@1.0.4:
-    resolution: {integrity: sha512-ZLnJtSHIXTl+LScc1yA7o0QVfbqdY5DfbC27CeL3FuypxLjBgeSarqfvtV9NwWoo+hbtfHQDblQYhgsDITqcfQ==}
+  upavif@1.1.2:
+    resolution: {integrity: sha512-Im+OVCMcwKxhmYfKcuv+gC21yCaKWMgbDLs7jwbE95Iwpe8J7+CQbhL+klr5DvixdU4YJVIcG1lWsIHw9EvrOQ==}
     peerDependencies:
       react: '>=16.8.0'
 
@@ -1917,9 +1917,8 @@ snapshots:
     dependencies:
       prelude-ls: 1.2.1
 
-  upavif@1.0.4(react@19.1.0):
+  upavif@1.1.2(react@19.1.0):
     dependencies:
-      '@jsquash/avif': 2.1.1
       react: 19.1.0
 
   uri-js@4.4.1:
